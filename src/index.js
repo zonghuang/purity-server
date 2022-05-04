@@ -23,7 +23,7 @@
 
 const http = require('http');
 
-const hostname = 'api.zonghuang.cn';
+const hostname = 'localhost';
 const port = 9998;
 
 const server = http.createServer((req, res) => {
