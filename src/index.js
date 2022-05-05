@@ -24,7 +24,7 @@
 const http = require('http');
 
 const hostname = 'localhost';
-const port = 9998;
+const port = 9000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
