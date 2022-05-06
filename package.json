@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "up": "pm2 deploy deploy.yaml production update",
+    "sp": "pm2 deploy deploy.yaml production setup "
+  },
   "dependencies": {
     "mongodb": "^4.5.0"
   }
