@@ -11,7 +11,7 @@ deploy:                                               # 部署脚本
   production:                                         # 生产环境
     user: root                                        # 服务器的用户名
     host: zonghuang.cn                                # 服务器的 ip 地址
-    port: 9000                                        # ssh 端口
+    port: 22                                          # ssh 端口
     ref: origin/main                                  # 要拉取的 git分支
     ssh_options: StrictHostKeyChecking=no             # ssh 公钥检查
     repo: https://github.com/zonghuang/purity-server.git  # 远程仓库地址
