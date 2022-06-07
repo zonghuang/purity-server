@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
+    "start": "cd src && nodemon index.js",
     "up": "pm2 deploy deploy.yaml production update",
     "sp": "pm2 deploy deploy.yaml production setup "
   },
   "dependencies": {
-    "mongodb": "^4.5.0"
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-mount": "^4.0.0",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.16"
   }
 }
